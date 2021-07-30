@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>My Portfolio | Isra Elwanda Putra</title>
+  </head>
+  <body id="home">
+
+    <!-- ========= Navbar=========== -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Isra Elwanda Putra</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- =========== Akhir Navbar ========== -->
+
+    <!-- ============== Jumbutron =============== -->
+    <section class="jumbotron bg-dark text-center text-light">
+      <img src="img/isra.jpg" alt="Isra Elwanda Putra" width="200" class="rounded-circle img-thumbnail">
+      <h1 class="display-4">Isra Elwanda Putra</h1>
+      <p class="lead">Programmer | Editor | Fotographer | Graphic Designer</p>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f8f9fa" fill-opacity="1" d="M0,96L34.3,112C68.6,128,137,160,206,160C274.3,160,343,128,411,128C480,128,549,160,617,181.3C685.7,203,754,213,823,218.7C891.4,224,960,224,1029,224C1097.1,224,1166,224,1234,234.7C1302.9,245,1371,267,1406,277.3L1440,288L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
+    </section>
+    <!-- ============== Akhir Jumbotron =============== -->
+
+    <!-- ============== About ========================= -->
+    <section id="about" class="bg-light text-center">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col">
+            <h2>About Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center fs-5">
+          <div class="col-md-4">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis eaque voluptatum perspiciatis, praesentium quisquam in aspernatur eius sequi enim quod quam laborum suscipit voluptas! Amet?</p>
+          </div>
+          <div class="col-md-4">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde nisi quos alias iste minus sequi nam ratione deserunt ea illo incidunt, in fugiat distinctio perspiciatis modi reprehenderit ex nobis, accusamus inventore iusto delectus. Provident, nam!</p>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#212529" fill-opacity="1" d="M0,256L34.3,240C68.6,224,137,192,206,192C274.3,192,343,224,411,213.3C480,203,549,149,617,144C685.7,139,754,181,823,181.3C891.4,181,960,139,1029,112C1097.1,85,1166,75,1234,64C1302.9,53,1371,43,1406,37.3L1440,32L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
+    </section>
+    <!-- ==================== Akhir About ================== -->
+
+    <!-- =================== Projects =================== -->
+    <section id="projects" class="text-light bg-dark">
+      <div class="container">
+        <div class="row mb-5 text-center">
+          <div class="col">
+            <h2>My Projects</h2>
+          </div>
+        </div>
+        <div class="row text-dark justify-content-center">
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/projects/1.jpg" class="card-img-top" alt="Project 1">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/projects/2.jpg" class="card-img-top" alt="Project 2">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/projects/3.jpg" class="card-img-top" alt="Project 3">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/projects/4.jpg" class="card-img-top" alt="Project 4">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/projects/5.jpg" class="card-img-top" alt="Project 5">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f8f9fa" fill-opacity="1" d="M0,0L24,16C48,32,96,64,144,69.3C192,75,240,53,288,42.7C336,32,384,32,432,58.7C480,85,528,139,576,165.3C624,192,672,192,720,181.3C768,171,816,149,864,133.3C912,117,960,107,1008,96C1056,85,1104,75,1152,90.7C1200,107,1248,149,1296,170.7C1344,192,1392,192,1416,192L1440,192L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"></path></svg>
+    </section>
+    <!-- ==================== Akhir Projects ====================== -->
+
+    <!-- ================================ Contact ===================================== -->
+    <section id="contact" class="bg-light">
+      <div class="container">
+        <div class="row text-center mb-5">
+          <div class="col">
+            <h2>Contact Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name">
+              </div>          
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" aria-describedby="email">
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
+              </div>     
+              <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#212529" fill-opacity="1" d="M0,320L30,309.3C60,299,120,277,180,261.3C240,245,300,235,360,234.7C420,235,480,245,540,218.7C600,192,660,128,720,106.7C780,85,840,107,900,144C960,181,1020,235,1080,229.3C1140,224,1200,160,1260,117.3C1320,75,1380,53,1410,42.7L1440,32L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
+    </section>
+    <!-- =============================== Akhir Contact =============================== -->
+
+    <!-- ================================= Footer ==================================== -->
+    <footer class="bg-dark text-white text-center pb-5">
+      <p>Created with <i class="bi bi-suit-heart-fill text-danger"></i> by <a href="https://www.instagram.com/putraisraelwanda/" class="text-white fw-bold">Isra Elwanda Putra</a></p>
+    </footer>
+    <!-- =============================== Akhir Footer =============================== -->
+    
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
